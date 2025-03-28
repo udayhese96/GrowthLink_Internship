@@ -23,7 +23,6 @@ To develop a robust SMS classification model that accurately detects spam messag
 
 ## 🔍 Feature Flow
 
-```mermaid
 graph TD;
     A[Load Dataset] --> B[Preprocessing]
     B --> C[Train-Test Split]
