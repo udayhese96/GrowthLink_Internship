@@ -22,15 +22,16 @@ To develop a robust SMS classification model that accurately detects spam messag
 ---
 
 ## 🔍 Feature Flow
-```mermaid
-graph TD;
-    A[Load Dataset] --> B[Preprocessing]
-    B --> C[Train-Test Split]
-    C --> D[Text Vectorization (TF-IDF)]
-    D --> E[Train Naive Bayes Model]
-    E --> F[Evaluate Accuracy & Metrics]
-    F --> G[Prediction on New Message]
-    E --> H[Feature Importance Visualization]
+
+1. 📥 Load Dataset  
+2. 🧹 Preprocess Text (clean labels, remove nulls, etc.)  
+3. 🧪 Train-Test Split  
+4. 🧠 Text Vectorization → TF-IDF  
+5. 📊 Train Naive Bayes Classifier  
+6. ✅ Evaluate Accuracy & Generate Confusion Matrix  
+7. 📩 Predict on New SMS Input  
+8. 🔍 Visualize Important Spam Keywords  
+
 ```
 
 ---
